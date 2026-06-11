@@ -16,7 +16,27 @@ Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahas
 
 
 ---
+## Demo
 
+**https://siapfilkom.up.railway.app**
+
+### Akun Test
+
+| Role | Email | Password |
+
+|------|-------|----------|
+
+| Mahasiswa | test@example.com | password123 |
+
+| Organisasi | bem@filkom.ub.ac.id | password123 |
+
+| Organisasi | hmdtif@filkom.ub.ac.id | password123 |
+
+---
+
+Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahasiswa FILKOM Universitas Brawijaya dalam menemukan dan mendaftar kegiatan organisasi secara online.
+
+---
 ## Fitur Utama
 
 ### Untuk Mahasiswa
