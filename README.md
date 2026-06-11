@@ -112,6 +112,59 @@ npm run dev
 ```
 
 Akses aplikasi di: **http://localhost:8000**
+---
+
+## Struktur Proyek
+
+```
+
+app/
+
+├── Http/
+
+│   ├── Controllers/
+
+│   │   ├── AuthController.php
+
+│   │   ├── MahasiswaController.php
+
+│   │   └── OrganisasiController.php
+
+│   └── Middleware/
+
+│       └── RoleMiddleware.php
+
+├── Models/
+
+│   ├── User.php
+
+│   ├── Kegiatan.php
+
+│   ├── Pendaftaran.php
+
+│   ├── DivisiKegiatan.php
+
+│   ├── MahasiswaProfile.php
+
+│   └── OrganisasiProfile.php
+
+resources/
+
+└── views/
+
+    ├── layouts/
+
+    ├── auth/
+
+    ├── mahasiswa/
+
+    └── organisasi/
+
+routes/
+
+└── web.php
+
+```
 
 ---
 
