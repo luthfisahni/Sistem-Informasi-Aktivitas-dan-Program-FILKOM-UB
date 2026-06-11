@@ -32,14 +32,16 @@
         <div class="p-4 border-b border-gray-100">
             <a href="{{ auth()->user()->isMahasiswa() ? route('mahasiswa.beranda') : route('organisasi.beranda') }}"
                class="flex items-center gap-2">
-                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                    <i class="fas fa-infinity text-white text-sm"></i>
-                </div>
-                <span class="font-bold text-blue-600">SIAP <span class="text-gray-800">FILKOM</span></span>
+                <img
+                src="{{ asset('img/siap.png') }}"
+                alt="SIAP FILKOM"
+                class="w-[75px] -ml-7 -mt-3"
+                >
+                <span class="font-bold text-blue-600 -mt-2 -ml-3">SIAP <span class="text-gray-800">FILKOM</span></span>
             </a>
         </div>
 
-        <nav class="flex-1 p-3 space-y-1">
+        <nav class="flex-1 p-3 space-y-1 -mt-2">
             @if(auth()->user()->isMahasiswa())
                 <a href="{{ route('mahasiswa.beranda') }}"
                    class="sidebar-link flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-600 hover:bg-blue-50 hover:text-blue-700 transition {{ request()->routeIs('mahasiswa.beranda') ? 'active' : '' }}">
