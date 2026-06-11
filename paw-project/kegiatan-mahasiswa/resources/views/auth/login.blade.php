@@ -10,13 +10,11 @@
 </head>
 <body class="min-h-screen bg-white flex">
 
-    {{-- Left: Form --}}
     <div class="w-full lg:w-1/2 flex flex-col justify-center px-10 lg:px-20">
         <div class="max-w-md w-full mx-auto">
             <h1 class="text-4xl font-extrabold text-gray-900 mb-2">SELAMAT DATANG</h1>
             <p class="text-gray-500 text-sm mb-8">Sistem Informasi Aktivitas & Program FILKOM<br>Universitas Brawijaya</p>
 
-            {{-- Role Toggle --}}
             <div class="flex bg-gray-100 p-1 rounded-full mb-7 w-fit gap-1">
                 <button id="btn-mahasiswa" onclick="setRole('mahasiswa')"
                         class="px-5 py-1.5 rounded-full text-sm font-semibold transition-all duration-200 bg-blue-500 text-white">
@@ -66,16 +64,22 @@
     </div>
 
     {{-- Right: Decorative --}}
-    <div class="hidden lg:flex w-1/2 bg-sky-100 items-center justify-center relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-3/4 h-full bg-sky-200 rounded-bl-[80px]"></div>
-        <div class="relative z-10 flex items-center justify-center">
-            <div class="text-center">
-                <div class="text-8xl mb-4">🔗</div>
-                <div class="text-blue-700 font-bold text-xl">SIAP FILKOM</div>
-                <div class="text-blue-500 text-sm mt-1">Universitas Brawijaya</div>
-            </div>
-        </div>
+    <div class="hidden lg:flex w-1/2 bg-sky-50 items-center justify-center relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-full h-full bg-sky-100 rounded-bl-[100px]"></div>
+    <div class="relative z-10 flex flex-col items-center text-center px-8">
+        <img
+            src="{{ asset('img/siap.png') }}"
+            alt="SIAP FILKOM"
+            class="w-[450px] h-auto -mt-20 -ml-10 -ml-20"
+        >
+        <h2 class="text-3xl font-bold text-blue-700 -mt-20 ">
+            SIAP FILKOM
+        </h2>
+        <p class="text-blue-500 mt-2">
+            Universitas Brawijaya
+        </p>
     </div>
+</div>
 
     <script>
         function setRole(role) {
