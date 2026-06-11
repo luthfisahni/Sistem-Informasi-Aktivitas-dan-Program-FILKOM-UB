@@ -1,6 +1,9 @@
 # SIAP FILKOM 
 ### Sistem Informasi Aktivitas dan Program FILKOM
 
+Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahasiswa FILKOM Universitas Brawijaya dalam menemukan dan mendaftar kegiatan organisasi secara online.
+
+---
 ## Demo
 
 **https://siapfilkom.up.railway.app**
@@ -15,9 +18,7 @@
 
 ---
 
-Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahasiswa FILKOM Universitas Brawijaya dalam menemukan dan mendaftar kegiatan organisasi secara online.
 
----
 
 ## Kelompok 5 
 | Nama | NIM |
