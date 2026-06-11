@@ -1,19 +1,32 @@
-# SIAP FILKOM
+# SIAP FILKOM 
 ### Sistem Informasi Aktivitas dan Program FILKOM
 
 Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahasiswa FILKOM Universitas Brawijaya dalam menemukan dan mendaftar kegiatan organisasi secara online.
 
 ---
+## Demo
 
-## Kelompok 5
+**https://siapfilkom.up.railway.app**
 
+### Akun Test
+
+| Role | Email | Password |
+|------|-------|----------|
+| Mahasiswa | test@example.com | password123 |
+| Organisasi | bem@filkom.ub.ac.id | password123 |
+| Organisasi | hmdtif@filkom.ub.ac.id | password123 |
+
+---
+
+
+
+## Kelompok 5 
 | Nama | NIM |
 |------|-----|
 | Damar Tyaga Wistara | 245150200111060 |
 | Daud Fathin Averroes | 245150200111054 |
 | Luthfi Pratama Sahni | 245150200111058 |
 | Rajif Aidil Putra Afina | 245150207111072 |
-
 
 ---
 
