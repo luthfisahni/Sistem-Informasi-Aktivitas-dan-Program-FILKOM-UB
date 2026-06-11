@@ -28,7 +28,7 @@ Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahas
 | Luthfi Pratama Sahni | 245150200111058 |
 | Rajif Aidil Putra Afina | 245150207111072 |
 
----
+----
 
 ## Fitur Utama
 
@@ -49,7 +49,7 @@ Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahas
 - Role-based access control via Middleware
 - Tampilan responsif (mobile, tablet, desktop)
 
----
+----
 
 ## Tech Stack
 
@@ -61,7 +61,7 @@ Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahas
 | ORM | Eloquent ORM |
 | Build Tool | Vite + Node.js |
 
----
+----
 
 ## Instalasi & Menjalankan Proyek
 
