@@ -12,12 +12,14 @@
 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 w-full max-w-lg p-8">
     <div class="mb-6">
         <div class="flex items-center gap-2 mb-4">
-            <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span class="text-white text-xs font-bold">SF</span>
-            </div>
-            <span class="font-bold text-blue-600">SIAP <span class="text-gray-800">FILKOM</span></span>
+            <img
+            src="{{ asset('img/siap.png') }}"
+            alt="SIAP FILKOM"
+            class="w-[75px] -ml-7 -mt-6"
+            >
+            <span class="font-bold text-blue-600 -mt-5 -ml-4">SIAP <span class="text-gray-800">FILKOM</span></span>
         </div>
-        <h1 class="text-2xl font-bold text-gray-900">Buat Akun Mahasiswa</h1>
+        <h1 class="text-2xl font-bold text-gray-900 -mt-5">Buat Akun Mahasiswa</h1>
         <p class="text-gray-500 text-sm mt-1">Daftarkan diri Anda untuk mengakses kegiatan FILKOM</p>
     </div>
 
@@ -65,6 +67,7 @@
                         class="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400">
                     <option value="">Pilih Program Studi</option>
                     <option value="Teknik Informatika" {{ old('program_studi') == 'Teknik Informatika' ? 'selected' : '' }}>Teknik Informatika</option>
+                    <option value="Teknik Komputer" {{ old('program_studi') == 'Teknik Komputer' ? 'selected' : '' }}>Teknik Komputer</option>
                     <option value="Sistem Informasi" {{ old('program_studi') == 'Sistem Informasi' ? 'selected' : '' }}>Sistem Informasi</option>
                     <option value="Teknologi Informasi" {{ old('program_studi') == 'Teknologi Informasi' ? 'selected' : '' }}>Teknologi Informasi</option>
                     <option value="Pendidikan Teknologi Informasi" {{ old('program_studi') == 'Pendidikan Teknologi Informasi' ? 'selected' : '' }}>Pendidikan Teknologi Informasi</option>
