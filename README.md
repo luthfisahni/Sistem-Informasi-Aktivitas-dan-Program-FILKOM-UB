@@ -15,7 +15,10 @@ Platform web manajemen kegiatan mahasiswa berbasis Laravel yang memudahkan mahas
 | Rajif Aidil Putra Afina | 245150207111072 |
 
 
+
+
 ---
+
 
 ## Fitur Utama
 
